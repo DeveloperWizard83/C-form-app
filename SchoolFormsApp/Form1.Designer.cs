@@ -35,13 +35,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtZip = new System.Windows.Forms.TextBox();
+            this.txtState = new System.Windows.Forms.TextBox();
+            this.txtTwitter = new System.Windows.Forms.TextBox();
             this.ButtonPushToTest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -110,54 +110,54 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "TwitterAddress";
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Location = new System.Drawing.Point(175, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtName.Location = new System.Drawing.Point(175, 31);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(100, 20);
+            this.txtName.TabIndex = 7;
             // 
-            // textBox2
+            // txtAddress
             // 
-            this.textBox2.Location = new System.Drawing.Point(175, 74);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 8;
+            this.txtAddress.Location = new System.Drawing.Point(175, 74);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(100, 20);
+            this.txtAddress.TabIndex = 8;
             // 
-            // textBox3
+            // txtCity
             // 
-            this.textBox3.Location = new System.Drawing.Point(175, 116);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 9;
+            this.txtCity.Location = new System.Drawing.Point(175, 116);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(100, 20);
+            this.txtCity.TabIndex = 9;
             // 
-            // textBox4
+            // txtPhone
             // 
-            this.textBox4.Location = new System.Drawing.Point(175, 252);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 10;
+            this.txtPhone.Location = new System.Drawing.Point(175, 252);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(100, 20);
+            this.txtPhone.TabIndex = 10;
             // 
-            // textBox5
+            // txtZip
             // 
-            this.textBox5.Location = new System.Drawing.Point(175, 211);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 11;
+            this.txtZip.Location = new System.Drawing.Point(175, 211);
+            this.txtZip.Name = "txtZip";
+            this.txtZip.Size = new System.Drawing.Size(100, 20);
+            this.txtZip.TabIndex = 11;
             // 
-            // textBox6
+            // txtState
             // 
-            this.textBox6.Location = new System.Drawing.Point(175, 161);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 12;
+            this.txtState.Location = new System.Drawing.Point(175, 161);
+            this.txtState.Name = "txtState";
+            this.txtState.Size = new System.Drawing.Size(100, 20);
+            this.txtState.TabIndex = 12;
             // 
-            // textBox7
+            // txtTwitter
             // 
-            this.textBox7.Location = new System.Drawing.Point(175, 298);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 13;
+            this.txtTwitter.Location = new System.Drawing.Point(175, 298);
+            this.txtTwitter.Name = "txtTwitter";
+            this.txtTwitter.Size = new System.Drawing.Size(100, 20);
+            this.txtTwitter.TabIndex = 13;
             // 
             // ButtonPushToTest
             // 
@@ -175,13 +175,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ButtonPushToTest);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTwitter);
+            this.Controls.Add(this.txtState);
+            this.Controls.Add(this.txtZip);
+            this.Controls.Add(this.txtPhone);
+            this.Controls.Add(this.txtCity);
+            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -205,13 +205,13 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.TextBox txtZip;
+        private System.Windows.Forms.TextBox txtState;
+        private System.Windows.Forms.TextBox txtTwitter;
         private System.Windows.Forms.Button ButtonPushToTest;
     }
 }
